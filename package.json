@@ -7,7 +7,7 @@
   "author": "KyuHyuk Lee <lee@kyuhyuk.kr>",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_ENV=development webpack serve --progress",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && NODE_ENV=development webpack serve --progress",
     "build": "NODE_ENV=production webpack --progress"
   },
   "dependencies": {
