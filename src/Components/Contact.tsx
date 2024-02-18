@@ -36,12 +36,23 @@ const ContactButton = styled.div`
   margin-bottom: 24px;
 `;
 
+const Content = styled.p`
+  font-size: 1.5vh;
+  line-height: 1.75;
+  opacity: 0.75;
+  margin-bottom: 24px;
+`;
+
 const Contact = () => {
   return (
     <Wrapper>
       <Divider plain style={{ marginTop: 0, marginBottom: 32 }}>
         <Title>Thông tin liên hệ</Title>
       </Divider>
+      <Content>
+        Vui lòng liên hệ chú rể và cô dâu theo thông tin số điện thoại phía
+        dưới.
+      </Content>
       <ContactButton
         onClick={() => {
           window.location.href = "tel://0968298850";
