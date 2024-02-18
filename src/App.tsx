@@ -6,7 +6,7 @@ import Gretting from "./Components/Greeting";
 import Gallery from "./Components/Gallery";
 import Location from "./Components/Location";
 import CongratulatoryMoney from "./Components/CongratulatoryMoney";
-import Share from "./Components/Share";
+// import Share from "./Components/Share";
 import GroovePaper from "./Assets/GroovePaper.png";
 
 const { Footer } = Layout;
