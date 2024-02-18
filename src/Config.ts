@@ -9,14 +9,14 @@ export const WEDDING_LOCATION =
 
 export const GROOM_NAME = "Trần Văn Vũ";
 export const GROOM_ACCOUNT_NUMBER = "8989222668668 - MB Bank";
-export const GROOM_FATHER_NAME = "Trần Đông Hải";
+export const GROOM_FATHER_NAME = "Bố Trần Đông Hải";
 export const GROOM_FATHER_ACCOUNT_NUMBER = "○○은행 ***-***-******";
-export const GROOM_MOTHER_NAME = "Khuất Thị Thậm";
+export const GROOM_MOTHER_NAME = "Mẹ Khuất Thị Thậm";
 export const GROOM_MOTHER_ACCOUNT_NUMBER = "○○은행 ***-***-******";
 
 export const BRIDE_NAME = "Khổng Thị Tuyết";
 export const BRIDE_ACCOUNT_NUMBER = "103892822000 - VietinBank";
-export const BRIDE_FATHER_NAME = "Khổng Văn Túc";
+export const BRIDE_FATHER_NAME = "Bố Khổng Văn Túc";
 export const BRIDE_FATHER_ACCOUNT_NUMBER = "○○은행 ***-***-******";
-export const BRIDE_MOTHER_NAME = "Ngô Thị Năng";
+export const BRIDE_MOTHER_NAME = "Mẹ Ngô Thị Năng";
 export const BRIDE_MOTHER_ACCOUNT_NUMBER = "○○은행 ***-***-******";
