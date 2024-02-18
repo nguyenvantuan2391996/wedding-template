@@ -6,7 +6,6 @@ import Gretting from "./Components/Greeting";
 import Gallery from "./Components/Gallery";
 import Location from "./Components/Location";
 import CongratulatoryMoney from "./Components/CongratulatoryMoney";
-import Share from "./Components/Share";
 import GroovePaper from "./Assets/GroovePaper.png";
 
 const { Footer } = Layout;
@@ -19,7 +18,6 @@ const App = () => {
       <Gallery />
       <Location />
       <CongratulatoryMoney />
-      {/*<Share />*/}
       <Footer
         style={{
           background: "#D7CCC8",

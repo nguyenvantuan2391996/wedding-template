@@ -1,21 +1,11 @@
 import React from "react";
-import { Button, Divider, message, Modal } from "antd";
-import { CheckCircleTwoTone } from "@ant-design/icons";
+import { Divider } from "antd";
 import styled from "styled-components";
-import CopyToClipboard from "react-copy-to-clipboard";
 import {
   GROOM_NAME,
   GROOM_ACCOUNT_NUMBER,
-  GROOM_FATHER_NAME,
-  GROOM_FATHER_ACCOUNT_NUMBER,
-  GROOM_MOTHER_NAME,
-  GROOM_MOTHER_ACCOUNT_NUMBER,
   BRIDE_NAME,
   BRIDE_ACCOUNT_NUMBER,
-  BRIDE_FATHER_NAME,
-  BRIDE_FATHER_ACCOUNT_NUMBER,
-  BRIDE_MOTHER_NAME,
-  BRIDE_MOTHER_ACCOUNT_NUMBER,
 } from "../Config";
 import GroovePaper from "../Assets/GroovePaper.png";
 
@@ -42,32 +32,32 @@ const Content = styled.p`
   opacity: 0.75;
   margin-bottom: 24px;
 `;
-
-const SubContent = styled.p`
-  font-size: 1.3vh;
-  line-height: 1.75;
-  opacity: 0.75;
-  margin-bottom: 24px;
-`;
-
-const Description = styled.p`
-  font-size: 1.75vh;
-  line-height: 1.75;
-  opacity: 0.65;
-  margin-top: 8px;
-`;
-
-const ContactButton = styled.div`
-  display: inline-block;
-  text-align: center;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 24px;
-`;
+//
+// const SubContent = styled.p`
+//   font-size: 1.3vh;
+//   line-height: 1.75;
+//   opacity: 0.75;
+//   margin-bottom: 24px;
+// `;
+//
+// const Description = styled.p`
+//   font-size: 1.75vh;
+//   line-height: 1.75;
+//   opacity: 0.65;
+//   margin-top: 8px;
+// `;
+//
+// const ContactButton = styled.div`
+//   display: inline-block;
+//   text-align: center;
+//   margin-left: 24px;
+//   margin-right: 24px;
+//   margin-bottom: 24px;
+// `;
 
 const CongratulatoryMoney = () => {
-  const [groomVisible, setGroomVisible] = React.useState<boolean>(false);
-  const [brideVisible, setBrideVisible] = React.useState<boolean>(false);
+  // const [groomVisible, setGroomVisible] = React.useState<boolean>(false);
+  // const [brideVisible, setBrideVisible] = React.useState<boolean>(false);
 
   return (
     <Wrapper>

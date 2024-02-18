@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import {
-  WEDDING_DATE,
-  WEDDING_LOCATION,
-  GROOM_NAME,
-  BRIDE_NAME,
-} from "../Config";
+// import {
+//   WEDDING_DATE,
+//   WEDDING_LOCATION,
+//   GROOM_NAME,
+//   BRIDE_NAME,
+// } from "../Config";
 import BackgroundVideo from "../Assets/BackgroundVideo.mp4";
 
 const Layout = styled.div`
@@ -40,18 +40,18 @@ const VideoBackground = styled.video`
   min-height: 480px;
 `;
 
-const WeddingInvitation = styled.p`
-  font-size: 1.5vh;
-  opacity: 0.45;
-  margin-bottom: 16px;
-`;
-
-const GroomBride = styled.p`
-  font-size: 3.5vh;
-  font-weight: bold;
-  opacity: 0.9;
-  margin-bottom: 16px;
-`;
+// const WeddingInvitation = styled.p`
+//   font-size: 1.5vh;
+//   opacity: 0.45;
+//   margin-bottom: 16px;
+// `;
+//
+// const GroomBride = styled.p`
+//   font-size: 3.5vh;
+//   font-weight: bold;
+//   opacity: 0.9;
+//   margin-bottom: 16px;
+// `;
 
 const Schedule = styled.p`
   font-size: 2vh;
