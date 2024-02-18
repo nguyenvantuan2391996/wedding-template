@@ -112,8 +112,6 @@ const Title = () => {
           <br />
           <br />
           <br />
-          <br />
-          <br />
           {countdown.days +
             " days" +
             " : " +
@@ -125,6 +123,8 @@ const Title = () => {
             " : " +
             countdown.seconds +
             " seconds"}
+          <br/>
+          {"18/01 âm tức ngày 27/02 năm 2024"}
         </Schedule>
       </TitleWrapper>
     </Layout>
