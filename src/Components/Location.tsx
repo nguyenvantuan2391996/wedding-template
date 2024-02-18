@@ -32,7 +32,7 @@ const Location = () => {
   return (
     <Wrapper>
       <Divider plain style={{ marginTop: 0, marginBottom: 32 }}>
-        <Title>Đường đi</Title>
+        <Title>Địa chỉ nhà trai</Title>
       </Divider>
       <Content>{WEDDING_LOCATION}</Content>
 

@@ -8,6 +8,7 @@ import Location from "./Components/Location";
 import CongratulatoryMoney from "./Components/CongratulatoryMoney";
 // import Share from "./Components/Share";
 import GroovePaper from "./Assets/GroovePaper.png";
+import Contact from "./Components/Contact";
 
 const { Footer } = Layout;
 
@@ -19,6 +20,7 @@ const App = () => {
       <Gallery />
       <Location />
       <CongratulatoryMoney />
+      <Contact />
       {/*<Share />*/}
       <Footer
         style={{
