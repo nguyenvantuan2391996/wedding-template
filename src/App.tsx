@@ -9,6 +9,7 @@ import CongratulatoryMoney from "./Components/CongratulatoryMoney";
 // import Share from "./Components/Share";
 import GroovePaper from "./Assets/GroovePaper.png";
 import Contact from "./Components/Contact";
+import MusicPlayer from "./Components/Music";
 
 const { Footer } = Layout;
 
@@ -21,6 +22,7 @@ const App = () => {
       <Location />
       <CongratulatoryMoney />
       <Contact />
+      <MusicPlayer />
       {/*<Share />*/}
       <Footer
         style={{

@@ -2,12 +2,12 @@ import React from "react";
 import ImageGallery from "react-image-gallery";
 import { Divider } from "antd";
 import styled from "styled-components";
+import GalleryPhoto0 from "../Assets/Gallery_Photo_0.png";
 import GalleryPhoto1 from "../Assets/Gallery_Photo_1.png";
 import GalleryPhoto2 from "../Assets/Gallery_Photo_2.png";
 import GalleryPhoto3 from "../Assets/Gallery_Photo_3.png";
 import GalleryPhoto4 from "../Assets/Gallery_Photo_4.png";
 import GalleryPhoto5 from "../Assets/Gallery_Photo_5.png";
-import GalleryPhoto6 from "../Assets/Gallery_Photo_6.png";
 import GroovePaper from "../Assets/GroovePaper.png";
 
 const Wrapper = styled.div`
@@ -25,6 +25,10 @@ const Title = styled.p`
 `;
 
 const images = [
+  {
+    original: GalleryPhoto0,
+    thumbnail: GalleryPhoto0,
+  },
   {
     original: GalleryPhoto1,
     thumbnail: GalleryPhoto1,
@@ -44,10 +48,6 @@ const images = [
   {
     original: GalleryPhoto5,
     thumbnail: GalleryPhoto5,
-  },
-  {
-    original: GalleryPhoto6,
-    thumbnail: GalleryPhoto6,
   },
 ];
 
